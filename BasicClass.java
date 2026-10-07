@@ -3,12 +3,10 @@
 
 
 class Car {
-    constructor(brand, model) {
-        this.brand = brand;
-        this.model = model;
-    }
+    String brand;
+    int year;
 
-    start() {
-        console.log("Car is starting...");
+    void start() {
+        System.out.println("Car is starting...");
     }
 }
