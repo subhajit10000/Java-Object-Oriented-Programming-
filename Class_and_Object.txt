@@ -1,1 +1,33 @@
+Classes:
+---------------
 
+We just mentioned that objects contain data, and code to manipulate that data. The entire
+set of data and code of an object can be made a user-defined data type with the help of
+class. In fact, objects are variables of the type class. Once a class has been defined, we
+can create any number of objects belonging to that class. Each object is associated with
+the data of type class with which they are created. A class is thus a collection of objects
+similar types. For examples, Mango, Apple and orange members of class fruit. Classes
+are user-defined that types and behave like the built-in types of a programming language.
+The syntax used to create an object is not different then the syntax used to create an
+integer object in C. If fruit has been defines as a class, then the statement
+Fruit Mango;
+Will create an object mango belonging to the class fruit.
+
+
+
+
+Objects:
+-------------
+Objects are the basic run time entities in an object-oriented system. They may represent a
+person, a place, a bank account, a table of data or any item that the program has to
+handle. They may also represent user-defined data such as vectors, time and lists.
+Programming problem is analyzed in term of objects and the nature of communication
+between them. Program objects should be chosen such that they match closely with the
+real-world objects. Objects take up space in the memory and have an associated address
+like a record in Pascal, or a structure in c.
+When a program is executed, the objects interact by sending messages to one another.
+Foe example, if “customer” and “account” are to object in a program, then the customer
+object may send a message to the count object requesting for the bank balance. Each
+object contain data, and code to manipulate data. Objects can interact without having to
+know details of each other’s data or code. It is a sufficient to know the type of message
+accepted, and the type of response returned by the objects.
